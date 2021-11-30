@@ -1,0 +1,41 @@
+#corpo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.formulario{
+  background-color: bisque;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+h1{
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(124, 5, 84);
+  text-align: center;
+}
+form{
+  color: rgb(124, 5, 84);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 60px;
+}
+input{
+  border-radius: 5px;
+  border: unset;
+  margin: 5px 0 5px 0;
+}
+.botao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+button{
+  background-color: rgb(124, 5, 84);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  border-color: white;
+}

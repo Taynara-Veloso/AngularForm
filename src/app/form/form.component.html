@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formulario</title>
+</head>
+<body id="corpo">
+  <div class="formulario">
+    <h1>Formulário</h1>
+    <form [formGroup]="perfil">
+    <label>Nome:</label>
+    <br>
+    <input formControlName="nome" type="text"/>
+    <br>
+
+    <label>Sobrenome:</label>
+    <br>
+    <input formControlName="sobrenome" type="text"/>
+    <br>
+
+    <label>Data De Nascimento:</label>
+    <br>
+    <input formControlName="dataDeNascimento" type="text"/>
+    <br>
+
+    <label>Nome da Mãe:</label>
+    <br>
+    <input formControlName="nomeDaMae" type="text"/>
+    <br>
+    </form>
+    <br>
+    <div class="botao"><button (click)="obter()">Obter Dados!</button></div>
+
+    <pre>
+      {{ data | json }}
+    </pre>
+  </div>
+</body>
+</html>
+
+
+
